@@ -1,0 +1,26 @@
+{
+  "name": "subscription-plan-eth",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "git+https://github.com/victortanzy123/Subscription-Plan-ETH.git",
+  "author": "victortanzy123 <83770436+victortanzy123@users.noreply.github.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/victortanzy123/Subscription-Plan-ETH/issues"
+  },
+  "homepage": "https://github.com/victortanzy123/Subscription-Plan-ETH#readme",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.2.0",
+    "chai": "^4.3.4"
+  },
+  "devDependencies": {
+    "@openzeppelin/test-helpers": "^0.5.12"
+  }
+}

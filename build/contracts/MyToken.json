@@ -1,0 +1,163 @@
+{
+  "contractName": "MyToken",
+  "abi": [],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.6+commit.11564f7e\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/C/Users/victo/solidityGH/subscriptionPlan/Subscription-Plan-ETH/contracts/mockToken.sol\":\"MyToken\"},\"evmVersion\":\"berlin\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/C/Users/victo/solidityGH/subscriptionPlan/Subscription-Plan-ETH/contracts/mockToken.sol\":{\"keccak256\":\"0xa909e1bae2ef9379fb5ebe157c12f09a218cb9e9982a31c37b6935937119c55c\",\"urls\":[\"bzz-raw://c174396c823caa8db72ed9b816933f81fa675a07b1ce46c550aeda5f980de5d9\",\"dweb:/ipfs/QmbqcM1FTRUGxfhfDLXhndsgb2D9TaJeMJGHjofLFMExb9\"]},\"@openzeppelin/contracts/token/ERC20/ERC20.sol\":{\"keccak256\":\"0x418cfe64226a974419f8ab7287ad4bb413156a4d7af8ab5d9bcaa5678d1a2f22\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://9f65118c99d5d6cfe602720418b8551c2da6c3de650e61c5231b0be4396aae0d\",\"dweb:/ipfs/QmdLmkRHJhEifzzDjF44MHXcQx2SXc5EzhpHzN2z1vUq8H\"]},\"@openzeppelin/contracts/token/ERC20/IERC20.sol\":{\"keccak256\":\"0x027b891937d20ccf213fdb9c31531574256de774bda99d3a70ecef6e1913ed2a\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://087318b21c528119f649899f5b5580566dd8d7b0303d4904bd0e8580c3545f14\",\"dweb:/ipfs/Qmbn5Mj7aUn8hJuQ8VrQjjEXRsXyJKykgnjR9p4C3nfLtL\"]},\"@openzeppelin/contracts/token/ERC20/extensions/IERC20Metadata.sol\":{\"keccak256\":\"0x83fe24f5c04a56091e50f4a345ff504c8bff658a76d4c43b16878c8f940c53b2\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://d4c3df1a7ca104b633a7d81c6c6f5192367d150cd5a32cba81f7f27012729013\",\"dweb:/ipfs/QmSim72e3ZVsfgZt8UceCvbiSuMRHR6WDsiamqNzZahGSY\"]},\"@openzeppelin/contracts/utils/Context.sol\":{\"keccak256\":\"0x95098bd1d9c8dec4d80d3dedb88a0d949fa0d740ee99f2aa466bc308216ca6d5\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://7fec968dcd68e13961521fa3c7dd87baecad91a2653b19240e81f21cc4f3ba85\",\"dweb:/ipfs/QmaXtsYt4Mphm8XHNUfk2me1cF3ssS2SqDBNFpYAzMjomC\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea2646970667358221220518d50960f2ecf891d3635726bd43b7b358c19887bb2886d1d6a98f24f8c7a1a64736f6c63430008060033",
+  "deployedBytecode": "0x6080604052600080fdfea2646970667358221220518d50960f2ecf891d3635726bd43b7b358c19887bb2886d1d6a98f24f8c7a1a64736f6c63430008060033",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "86:19:1:-:0;;;;;;;;;;;;;;;;;;;",
+  "deployedSourceMap": "86:19:1:-:0;;;;;",
+  "source": "pragma solidity ^0.8.6;\r\n\r\nimport \"@openzeppelin/contracts/token/ERC20/ERC20.sol\";\r\n\r\ncontract MyToken {}",
+  "sourcePath": "C:/Users/victo/solidityGH/subscriptionPlan/Subscription-Plan-ETH/contracts/mockToken.sol",
+  "ast": {
+    "absolutePath": "/C/Users/victo/solidityGH/subscriptionPlan/Subscription-Plan-ETH/contracts/mockToken.sol",
+    "exportedSymbols": {
+      "Context": [
+        1053
+      ],
+      "ERC20": [
+        929
+      ],
+      "IERC20": [
+        1007
+      ],
+      "IERC20Metadata": [
+        1032
+      ],
+      "MyToken": [
+        383
+      ]
+    },
+    "id": 384,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 381,
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".6"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:1"
+      },
+      {
+        "absolutePath": "@openzeppelin/contracts/token/ERC20/ERC20.sol",
+        "file": "@openzeppelin/contracts/token/ERC20/ERC20.sol",
+        "id": 382,
+        "nameLocation": "-1:-1:-1",
+        "nodeType": "ImportDirective",
+        "scope": 384,
+        "sourceUnit": 930,
+        "src": "27:55:1",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 383,
+        "linearizedBaseContracts": [
+          383
+        ],
+        "name": "MyToken",
+        "nameLocation": "95:7:1",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 384,
+        "src": "86:19:1",
+        "usedErrors": []
+      }
+    ],
+    "src": "0:105:1"
+  },
+  "legacyAST": {
+    "absolutePath": "/C/Users/victo/solidityGH/subscriptionPlan/Subscription-Plan-ETH/contracts/mockToken.sol",
+    "exportedSymbols": {
+      "Context": [
+        1053
+      ],
+      "ERC20": [
+        929
+      ],
+      "IERC20": [
+        1007
+      ],
+      "IERC20Metadata": [
+        1032
+      ],
+      "MyToken": [
+        383
+      ]
+    },
+    "id": 384,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 381,
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".6"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:1"
+      },
+      {
+        "absolutePath": "@openzeppelin/contracts/token/ERC20/ERC20.sol",
+        "file": "@openzeppelin/contracts/token/ERC20/ERC20.sol",
+        "id": 382,
+        "nameLocation": "-1:-1:-1",
+        "nodeType": "ImportDirective",
+        "scope": 384,
+        "sourceUnit": 930,
+        "src": "27:55:1",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 383,
+        "linearizedBaseContracts": [
+          383
+        ],
+        "name": "MyToken",
+        "nameLocation": "95:7:1",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 384,
+        "src": "86:19:1",
+        "usedErrors": []
+      }
+    ],
+    "src": "0:105:1"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.6+commit.11564f7e.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.4.1",
+  "updatedAt": "2021-07-15T06:58:32.116Z",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}
